@@ -1,6 +1,8 @@
 name: SauceCTL - Cypress with Failure Analysis
 
 on:
+  push:
+    branches: ['failure_analysis']
   schedule:
     - cron:  '0 1 * * *'
 
