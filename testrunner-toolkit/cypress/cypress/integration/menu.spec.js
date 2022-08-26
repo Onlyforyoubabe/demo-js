@@ -34,7 +34,7 @@ describe('Menu', () => {
   });
 
   it('should be able to clear the cart', () => {
-    AppHeaderPage.cart.should('have.text', '1');
+    AppHeaderPage.cart.should('have.text', '10');
     MenuPage.restAppState();
     AppHeaderPage.cart.should('have.text', '');
   });

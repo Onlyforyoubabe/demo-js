@@ -8,7 +8,7 @@ class CartSummaryPage {
     }
 
     get continueShoppingButton() {
-        return cy.get('.btn_secondary');
+        return cy.get('.btn_oops_wrong_locator');
     }
 
     get items() {
