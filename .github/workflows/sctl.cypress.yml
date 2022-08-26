@@ -1,4 +1,4 @@
-name: SauceCTL - Cypress
+name: SauceCTL - Cypress with Failure Analysis
 
 on:
   schedule:
@@ -35,5 +35,5 @@ jobs:
         run: npm run test.sauce.ex1.us
 
       - name: Run EU tests
-      	if: ${{ always() }}
+        if: ${{ always() }}
         run: npm run test.sauce.ex1.eu
