@@ -1,0 +1,11 @@
+var capabilities = {
+  'platformName': 'iOS',
+  'platformVersion': '16.2',
+  'platformBuild': '20C65',
+  'location': 'NA-US-BOS',
+  'resolution': '750x1334',
+  'accountName': 'dev1',
+  'deviceStatus': 'CONNECTED',
+  'manufacturer': 'Apple',
+  'model': 'iPhone-SE \\(3rd generation\\)'
+}
